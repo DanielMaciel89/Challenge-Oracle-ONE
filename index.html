@@ -1,0 +1,39 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge ONE</title>
+    <link rel="stylesheet" href="/Assets/css/reset.css" />
+    <link rel="stylesheet" href="/Assets/css/style.css" />
+    <script src="/Assets/js/javascript.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <img src="/Assets/img/logo.svg" alt="" />
+      <div>
+        <!-- <input type="text-" name="ler" id="ler" placeholder="Digite seu texto" /> -->
+        <textarea
+          name="ler"
+          id="ler"
+          cols="30"
+          rows="10"
+          placeholder="Digite seu texto"
+        ></textarea>
+      </div>
+
+      <div id="decodificado">
+        <img id="imglupa" src="/Assets/img/lupa.svg" alt="" />
+        <textarea name="txt" id="txt" cols="30" rows="10"></textarea>
+        <h3 id="teste" class="txtdigitado">Nenhuma Mensagem encontrada</h3>
+        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+        <button class="btncopiar" onclick="copiar()">Copiar</button>
+      </div>
+      <button class="btncripto" onclick="criptografia()">Criptografar</button>
+      <button class="btndescripto" onclick="descriptografia()">
+        Descriptografara
+      </button>
+    </main>
+  </body>
+</html>
