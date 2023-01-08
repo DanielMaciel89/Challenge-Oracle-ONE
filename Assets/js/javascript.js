@@ -35,6 +35,7 @@ function criptografia() {
   document.getElementsByClassName("txtdigitado")[0].innerHTML =
     "" + codificado + "";
   oculta();
+  btncopiar();
 }
 function descriptografia() {
   var descodificado = document.getElementsByName("ler")[0].value;
@@ -61,11 +62,16 @@ function descriptografia() {
   document.getElementsByClassName("txtdigitado")[0].innerHTML =
     "" + descodificado + "";
   oculta();
+  btncopiar();
 }
 function oculta() {
   var obj = (document.getElementById("imglupa").style.display = "none");
-  var obj = (document.getElementById("teste").className =
+  var objs = (document.getElementById("teste").className =
     "txtdigitado                                                     txtdigitados");
+  var p = (document.getElementById("p").style.display = "none");
+}
+function btncopiar() {
+  var btncopiar = (document.getElementById("copiar").style.display = "initial");
 }
 
 function copiar() {

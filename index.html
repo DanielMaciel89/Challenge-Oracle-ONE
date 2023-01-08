@@ -9,9 +9,10 @@
     <script src="/Assets/js/javascript.js"></script>
   </head>
   <body>
-    <header></header>
-    <main>
+    <header>
       <img src="/Assets/img/logo.svg" alt="" />
+    </header>
+    <main>
       <div>
         <!-- <input type="text-" name="ler" id="ler" placeholder="Digite seu texto" /> -->
         <textarea
@@ -25,10 +26,12 @@
 
       <div id="decodificado">
         <img id="imglupa" src="/Assets/img/lupa.svg" alt="" />
-        <textarea name="txt" id="txt" cols="30" rows="10"></textarea>
+        <textarea name="txt" id="txt" cols="30" rows="30"></textarea>
         <h3 id="teste" class="txtdigitado">Nenhuma Mensagem encontrada</h3>
-        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
-        <button class="btncopiar" onclick="copiar()">Copiar</button>
+        <p id="p">
+          Digite um texto que você deseja criptografar ou descriptografar
+        </p>
+        <button id="copiar" class="btncopiar" onclick="copiar()">Copiar</button>
       </div>
       <button class="btncripto" onclick="criptografia()">Criptografar</button>
       <button class="btndescripto" onclick="descriptografia()">
