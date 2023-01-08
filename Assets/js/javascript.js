@@ -65,7 +65,7 @@ function descriptografia() {
 function oculta() {
   var obj = (document.getElementById("imglupa").style.display = "none");
   var obj = (document.getElementById("teste").className =
-    "txtdigitado txtdigitados");
+    "txtdigitado                                                     txtdigitados");
 }
 
 function copiar() {
