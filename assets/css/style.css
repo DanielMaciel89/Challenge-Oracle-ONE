@@ -104,6 +104,7 @@ p {
   padding: auto;
   text-align: center;
 }
+
 @media (max-width: 400px) {
   #decodificado {
     width: auto;
