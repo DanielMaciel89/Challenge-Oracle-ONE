@@ -187,3 +187,101 @@ p {
     font-size: 15px;
   }
 }
+
+@media (max-width: 768px) {
+  #decodificado {
+    width: auto;
+    position: static;
+    margin-bottom: 10px;
+  }
+  .btncripto,
+  .btndescripto,
+  .btncopiar {
+    position: static;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+  #imglupa {
+    display: none;
+  }
+  div {
+    margin-top: 10px;
+  }
+  .btncripto {
+    width: 343px;
+    height: 67px;
+    position: absolute;
+    display: inline;
+    top: 420px;
+    left: -10px;
+    margin-left: 40px;
+  }
+  .btndescripto {
+    width: 343px;
+    height: 67px;
+    position: absolute;
+    display: inline;
+    top: 420px;
+    left: 350px;
+    margin-right: 40px;
+  }
+  main {
+    width: 375px;
+    height: 933px;
+  }
+  #ler {
+    font-size: 15px;
+    position: absolute;
+    left: 60px;
+    top: 130px;
+    left: 40px;
+    width: 688px;
+  }
+  #decodificado {
+    background: #ffffff;
+    display: inline-block;
+    border-radius: 32px;
+    margin-top: 20px;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    width: auto;
+    height: auto;
+    top: 500px;
+    max-height: 600px;
+    min-width: 688px;
+    min-height: 133px;
+  }
+  .btncopiar {
+    width: 624px;
+    height: 67px;
+    margin: auto;
+    top: auto;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  #copiar {
+    display: none;
+  }
+  .txtdigitado {
+    font-size: 20px;
+    position: relative;
+    padding-top: 15px;
+    text-align: center;
+    top: auto;
+  }
+  .txtdigitados {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  p {
+    margin-top: 10px;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
