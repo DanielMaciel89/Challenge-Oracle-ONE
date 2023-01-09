@@ -14,6 +14,12 @@ main {
   left: 240px;
   top: 168px;
 }
+
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
 img {
   margin-top: 40px;
   display: block;
