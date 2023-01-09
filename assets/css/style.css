@@ -104,6 +104,7 @@ p {
   left: 32px;
   top: 710px;
   position: absolute;
+  display: none;
 }
 #txt {
   display: none;
