@@ -79,3 +79,5 @@ function copiar() {
   var texto = document.getElementsByClassName("txtdigitado")[0].textContent;
   navigator.clipboard.writeText(texto).then(() => {});
 }
+
+//Teste
