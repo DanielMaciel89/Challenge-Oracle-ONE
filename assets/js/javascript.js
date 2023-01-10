@@ -2,6 +2,17 @@ function criptografia() {
   var textoCodificado = document.getElementsByName("ler")[0].value;
   var codificado;
 
+  function verifica() {
+    if (textoCodificado == null || textoCodificado == undefined) {
+      textoCodificado = "Nenhum texto foi digitado ";
+      document.getElementsByClassName("txtdigitado")[0].innerHTML =
+        "" + codificado + "";
+    } else {
+      oculta();
+      btncopiar();
+    }
+  }
+  verifica();
   for (let i = 0; i < textoCodificado.length; i++) {
     if (codificado == undefined) {
       codificado = "";
@@ -34,8 +45,6 @@ function criptografia() {
   console.log(codificado);
   document.getElementsByClassName("txtdigitado")[0].innerHTML =
     "" + codificado + "";
-  oculta();
-  btncopiar();
 }
 function descriptografia() {
   var descodificado = document.getElementsByName("ler")[0].value;
@@ -61,8 +70,6 @@ function descriptografia() {
   }
   document.getElementsByClassName("txtdigitado")[0].innerHTML =
     "" + descodificado + "";
-  oculta();
-  btncopiar();
 }
 function oculta() {
   var obj = (document.getElementById("imglupa").style.display = "none");
